@@ -65,72 +65,73 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-
-.top-head{
-
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin: 2% ;
+.container {
+	border: 2px solid #e0e109;
+	height: 200%;
 }
-.top-head nav {
-
+nav {
+	margin: 0 5%;
 	display: flex;
-	justify-content: space-between;
-
-
+	justify-content: space between;
 }
-.top-head img  {
-	margin-right: 3%;
-}
-nav a  {
-	display: flex;
-	flex-direction: row;
+nav a {
 	text-decoration: none;
-	padding: 3% 12%;
-	margin: 3% 10%;
+	margin: 2% 2%;
+	padding: 2% 2%;
+	color: #363232;
 }
-.info{
-	margin: 2% 5%;
+.logo {
 	display: flex;
-	width: 80%;
-	justify-content: space-around;
+	align-self: center;
+	height: 1%;
 }
-.info img {
-	width: 25%;
-	/*border: 2px solid black;*/
-	margin:0 5%;
-	height: 20%;
-	
-}
-.info div {
-	width:35%;
-	height:25%;
 
-	padding:4% 8%;
-	margin:0 10%; 
-	font-size: 3em;
-	font-weight: bold;
-	/*border: 2px solid black;*/
-	text-align: center;
+hr  {
+	width: 90%;
+	margin: 3% 0;
+}
+header {
+	display: flex;
+	margin: auto 5%;
+}
+header div{
+	margin: 0 10%;
+text-align: center;
+font-size: 5em;
+}
+header img {
+margin: 0 4%;
 }
 .top-section {
 	display: flex;
 
-}
-hr  {
-	width: 90%;
+
 }
 .top-section div {
-	padding: 2% 0;
-	margin: 0 5%;
+	margin: auto 5%;
 }
 .middle-img {
 	width: 90%;
-	margin-left: 5%;
+	margin:2% 5%;
 }
 .last-section {
 	display: flex;
-	margin: 5%;
+	margin: 2% 3%;
 }
-
+.last-section div {
+	width: 35%;
+	margin: 0 2%;
+}
+footer {
+	display: flex;
+	flex-direction: column;
+	margin: 0 5%;
+}
+address, a {
+	line-height: 1.2;
+	margin-bottom: 2%;
+	color: black;
+}
+.copyRight {
+	text-align: center
+}
