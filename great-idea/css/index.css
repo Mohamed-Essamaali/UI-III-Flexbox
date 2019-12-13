@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5 {
 	height: 200%;
 }
 nav {
-	margin: 0 5%;
+	margin: 0 3%;
 	display: flex;
 	justify-content: space between;
 }
@@ -101,6 +101,13 @@ font-size: 5em;
 }
 header img {
 margin: 0 4%;
+
+}
+button {
+	background :#f8f5f5;
+	width: 50%;
+	height: 10%;
+	margin: 0 0 5% 0;
 }
 .top-section {
 	display: flex;
@@ -114,11 +121,11 @@ margin: 0 4%;
 	width: 90%;
 	margin:2% 5%;
 }
-.last-section {
+.main-section {
 	display: flex;
 	margin: 2% 3%;
 }
-.last-section div {
+.main-section div {
 	width: 35%;
 	margin: 0 2%;
 }
@@ -134,4 +141,35 @@ address, a {
 }
 .copyRight {
 	text-align: center
+}
+
+/* ---------- styling for services html ----------*/
+
+.service-link {
+	width: 100%;
+	margin: 2% 5%;
+}
+.services-header {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+}
+.services-header div {
+	font-size: 16px;
+	width: 90%;
+	margin: auto 5%;
+}
+.services-header-img {
+	width: 90%;
+	margin: auto 5%;
+}
+.services-main-section {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2% 5%;
+
+}
+.services-main-section div {
+	width: 30%;
+	padding: 2%;
 }
