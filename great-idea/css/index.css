@@ -65,25 +65,31 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-.container {
-	border: 2px solid #e0e109;
-	height: 200%;
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5; 
 }
+
 nav {
-	margin: 0 3%;
+	width: 90%;
+	margin: 0 5%;
 	display: flex;
 	justify-content: space between;
+	
 }
 nav a {
+	width: 11%;
 	text-decoration: none;
-	margin: 2% 2%;
-	padding: 2% 2%;
+	margin: 2% 1%;
+	padding: 1% 4%;
 	color: #363232;
 }
 .logo {
 	display: flex;
 	align-self: center;
 	height: 1%;
+	padding-left: 3%;
+	
 }
 
 hr  {
@@ -93,6 +99,7 @@ hr  {
 header {
 	display: flex;
 	margin: auto 5%;
+	padding-top:1%;
 }
 header div{
 	margin: 0 10%;
@@ -103,7 +110,7 @@ header img {
 margin: 0 4%;
 
 }
-button {
+.index-header button {
 	background :#f8f5f5;
 	width: 50%;
 	height: 10%;
@@ -140,36 +147,97 @@ address, a {
 	color: black;
 }
 .copyRight {
-	text-align: center
+	text-align: center;
+	padding: 3%;
 }
 
 /* ---------- styling for services html ----------*/
 
+.services-header h3 {
+	text-align: left;
+	font-size: 2em;
+}
+.services-header p {
+	text-align: left;
+}
 .service-link {
-	width: 100%;
+	width: 90%;
 	margin: 2% 5%;
 }
 .services-header {
 	width: 90%;
 	display: flex;
 	flex-direction: column;
+
 }
 .services-header div {
+	padding: 2% 0;
 	font-size: 16px;
 	width: 90%;
 	margin: auto 5%;
 }
 .services-header-img {
 	width: 90%;
+	padding-bottom: 2%;
 	margin: auto 5%;
 }
 .services-main-section {
+	width: 90%;
 	display: flex;
 	flex-wrap: wrap;
-	margin: 2% 5%;
+	justify-content: center;
+	margin: 2% 3%;
+	margin-left:5%;
 
 }
 .services-main-section div {
-	width: 30%;
-	padding: 2%;
+	width: 40%;
+	padding: 2% 3%;
+	margin: 2% 5%;
+	background: #f8f5f5;
+	border: 1px solid black;
+	
 }
+.services-main-section div button {
+	height: 15%;
+	margin-top: 17%;
+	width: 30%;
+	border-radius: 10px;
+	border: 1px solid black;
+	background: white;
+}
+.services-last-section {
+	display: flex;;
+	width: 90%;
+	margin: 0 5%;
+	padding: 0 3%;
+	
+}
+.services-last-section .services-fact {
+	display: flex;
+	width: 40%;
+	flex-direction: column;
+	margin:0 2%;
+	line-height: 1.5;
+}
+.services-info-img {
+	width: 40%;
+	margin-left: 15%;
+
+}
+
+ul {
+	padding: 3%;
+
+}
+li {
+	list-style-type: square;
+	line-height: 2;
+}
+hr {
+	width: 80%;
+}
+.hr-last-section {
+	border:1.5px solid black;
+}
+
